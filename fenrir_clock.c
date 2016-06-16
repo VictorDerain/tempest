@@ -14,15 +14,27 @@ month=12
 year=inf;
 */
 
+//=======================define===================
+#define module_time 1
+#define module_date 2
+#define module_year 3
+#define module_alarm 4
+#define module_set_time 10
+#define module_set_date 11
+#define module_set_year 12
+#define module_set_alarm 13
 
-
-
+//=======================include===================
 #include <avr/io.h>
 
+//=======================pragma====================
 
-void set_time();
+//=======================prototype=================
+void set_time(void);
+void set_alarm(void);
 char mouth_days();
 
+//=======================variable=======================
 unsigned char time_hour;
 unsigned char time_minute;
 unsigned char time_second;
@@ -30,12 +42,18 @@ unsigned char time_day;
 unsigned char time_month;
 unsigned int  time_year=2016;
 unsigned int  temperature;
+unsigned char alarm_en=0;
+unsigned char show_
+unsigned char show_module;
 
 
 int main(void)
 {
 //initialization
 set_time();
+show_module=module_time;
+
+
 
 	
 
@@ -72,6 +90,11 @@ set_time()
 	
 }
 
+set_alarm()
+{
+
+}
+
 month_days()
 {
     if((time_month==1)||(time_month==3)||(time_month==5)||(time_month==7)||(time_month==8)||(time_month==10)||(time_month==12))
@@ -94,4 +117,14 @@ za raz goryat:
 vozmohno hranenie v odnom baite   //ne obyazatel'no
 10010001b=9 1
 programmiruem kamen' cherez usb-uart driver
+*/
+
+
+
+/*
+alarm
+repeat alarm
+
+
+
 */
