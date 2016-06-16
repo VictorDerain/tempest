@@ -29,6 +29,7 @@ unsigned char time_second;
 unsigned char time_day;
 unsigned char time_month;
 unsigned int  time_year=2016;
+unsigned int  temperature;
 
 
 int main(void)
@@ -86,18 +87,11 @@ month_days()
 /*
 6 indikatorov s tochkoy
 1._2.___3._4.___5._6.
-
 za raz goryat:
 1-4, 2-5, 3-6     //dlya minimizacii effekta begushego ognya
-
-
 4 pina dlya dlya kajdogo chisla
-
 0-9 = 0h-9h - 0000b-1001b
 vozmohno hranenie v odnom baite   //ne obyazatel'no
 10010001b=9 1
-
-
 programmiruem kamen' cherez usb-uart driver
-
 */
