@@ -26,6 +26,7 @@ year=inf;
 
 //=======================include===================
 #include <avr/io.h>
+#include <stdint.h>
 
 //=======================pragma====================
 
@@ -45,6 +46,14 @@ unsigned int  temperature;
 unsigned char alarm_en=0;
 unsigned char show_
 unsigned char show_module;
+
+//zamenit' na
+
+struct time_data {
+	uint8_t hour;
+	uint8_t minute;
+	
+} Data_Time;
 
 
 int main(void)
