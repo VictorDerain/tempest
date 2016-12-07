@@ -1,5 +1,5 @@
 /********************************
- * tempest.c			*
+ * main.c for AVR 		*
  *				*
  * Created: 04.06.2016 4:20:00	*
  *  Author: Derain		*
