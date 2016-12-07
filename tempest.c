@@ -1,17 +1,17 @@
-/*
- * fenrir_clock.c
- *
- * Created: 04.06.2016 4:20:00
- *  Authors: Derain
- */ 
+/********************************
+ * tempest.c			*
+ *				*
+ * Created: 04.06.2016 4:20:00	*
+ *  Author: Derain		*
+ ********************************/ 
 
-/*
-second=60
-minute=60
-hour=24
-day =28,29,30,31
-month=12
-year=inf;
+/*MAX:
+	second=60
+	minute=60
+	hour=24
+	day =28,29,30,31
+	month=12
+	year=2100;
 */
 
 //=======================define===================
