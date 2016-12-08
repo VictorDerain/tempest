@@ -5,14 +5,15 @@
  *  Author: Derain		*
  ********************************/ 
 
-/*MAX:
+/*==================================*
+MAX:
 	second=60
 	minute=60
 	hour=24
 	day =28,29,30,31
 	month=12
 	year=2100;
-*/
+*==================================*/
 
 //=======================define===================
 #define module_time 1
@@ -112,7 +113,7 @@ month_days()
 	else if(time_month==2) return 28;
 	else return 30;
 	
-	//optimizirovat'
+	//delete this
 }
 
 
